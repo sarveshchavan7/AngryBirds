@@ -9,7 +9,7 @@ public class bird : MonoBehaviour {
     private bool isPressed = false;
     public Rigidbody2D rb;
     public float releaseTime = .15f;
-    public float maxDragDistance = 3f;
+    public float maxDragDistance = 2f;
     public Rigidbody2D hook;
     public GameObject nextBird;
 
